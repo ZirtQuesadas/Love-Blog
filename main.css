@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/******************************global*************************/
+/******************************global*************************/
+body {
+  background-color: #fff; }
+
+/************header***********/
+header.header_area {
+  width: 100%; }
+
+/*.fix{
+	position: fixed;
+}*/
+.header {
+  width: 970px; }
+
+.logo {
+  width: 100%; }
+
+h1 {
+  color: #D75921 !important;
+  font-family: Playfair;
+  display: inline-block; }
+
+h1 span {
+  color: #F5A18B;
+  opacity: 0.5; }
+
+.floatleft {
+  float: left;
+  position: relative;
+  display: inline-block; }
+
+.mainmenu li {
+  margin-top: 20px; }
+
+ul#nav li {
+  display: inline-block;
+  list-style: none; }
+
+li a {
+  color: #d5d5d5;
+  padding: 0 15px; }
+
+li a:hover {
+  color: #D75921;
+  padding: 0 15px; }
+
+li a.active {
+  color: #D75921; }
+
+.floatright {
+  float: right;
+  position: relative;
+  display: inline-block; }
+
+header.header_bottom_area {
+  width: 100%; }
+
+header.header_bottom_area .container {
+  background-color: #D75921;
+  margin-bottom: 20px; }
+
+header.header_bottom_area h2 {
+  width: 100%;
+  color: #fff;
+  background-color: #D75921;
+  font-size: 33px; }
+
+/********secci├│n lateral ABOUT JETRO - CAYEGORIES - PHOTOGALLERY *********/
+.fondo-img {
+  background-color: #F5A18B;
+  width: 50px !important;
+  height: 50px !important;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  border: solid 1px #D75921;
+  opacity: 0.7; }
+
+/***********************footer**************************/
+div.footer_area {
+  width: 100%;
+  margin-top: 40px; }
+
+.footer {
+  background-color: #D75921;
+  color: #fff; }
+
+.single_footer_container {
+  background-color: #D75921; }
+
+.single_footer div.social_area {
+  background-image: url(..images.social.png); }
+
+/***
+
+div.main_content_area{
+
+	}
+
+***/
+/****************************** /global *************************/
+/****************************** /global*************************/
+/******************************local*************************/
+/******************************local*************************/
+/************ single.html | ABOUT US**************/
+section#single-main {
+  margin-bottom: 20px; }
+
+section#single-main img.autor-img {
+  padding: 3px;
+  margin-left: -15px;
+  margin-top: 20px;
+  border: #d5d5d5 solid 1px; }
+
+section#single-main p.quote {
+  color: #D75921;
+  margin-left: 80px;
+  margin-right: 80px;
+  padding: 20px 0; }
+
+section#single-main .col-sm-12 > p {
+  padding-right: 50px; }
+
+/************** contact-us.html *****************/
+/* WebKit browsers */
+/*parra dar diferentes estilos al placeholder*/
+input.stylish::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #D75921;
+  text-transform: uppercase; }
+
+textarea::-webkit-textarea-placeholder {
+  color: #D75921; }
+
+/*# sourceMappingURL=main.css.map */

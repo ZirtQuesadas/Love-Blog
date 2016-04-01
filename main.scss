@@ -1,0 +1,174 @@
+/******************************global*************************/
+/******************************global*************************/
+$margin-micro:3px;
+$margin10: 10px;
+$margin20: 20px;
+$naranja: #D75921;
+$naranja-trans: #F5A18B;
+$gris: #d5d5d5;
+$azul: #3bbfce;
+$negro:#000;
+$verde: #00ff00;
+$amarillo: #D75921;
+$space20: 20px;
+$cuadrito: 50px;
+
+body{background-color: #fff;}
+/************header***********/
+header.header_area{
+	width: 100%;
+	}
+	/*.fix{
+		position: fixed;
+	}*/
+	.header{
+		width: 970px;
+	}
+	.logo{
+		width: 100%;
+	}
+		a{}
+			h1{
+				color: $naranja !important;
+				font-family: Playfair;
+				display: inline-block;
+			}
+				h1 span{
+					color: $naranja-trans;
+					opacity: 0.5;
+				}
+	.floatleft{
+		float: left;
+		position: relative;
+		display: inline-block;
+	}
+	.mainmenu li{
+		margin-top: $margin20;
+	}
+		.mainmenu ul#nav{
+
+		}
+			ul#nav li{
+		display: inline-block;
+		list-style: none;
+		}
+			li a{
+				color: $gris;
+				padding: 0 15px;
+			}
+			li a:hover{
+				color: $naranja;
+				padding: 0 15px;
+			}
+			li a.active{
+				color: $naranja;
+			}
+	.floatright{
+		float: right;
+		position: relative;
+		display: inline-block;
+	}
+
+header.header_bottom_area{
+	width: 100%;
+
+}
+	header.header_bottom_area .container{
+		background-color: $naranja;
+		margin-bottom: $margin20;
+	}
+	header.header_bottom_area h2{
+		width: 100%;
+		color: #fff;
+		background-color: $naranja;
+		font-size: 33px;
+	}
+
+/********sección lateral ABOUT JETRO - CAYEGORIES - PHOTOGALLERY *********/
+.fondo-img{
+	background-color: $naranja-trans;
+	width: $cuadrito !important;
+	height: $cuadrito !important;
+	margin-right: $margin-micro;
+	margin-bottom: $margin-micro;
+	border: solid 1px $naranja;
+	opacity: 0.7;
+}
+/***********************footer**************************/
+div.footer_area{
+	width: 100%;
+	margin-top: 40px;
+}	
+	.footer{
+		background-color: $naranja;
+		color: #fff;
+	}
+		.single_footer_container{
+			background-color: $naranja;
+		}
+			.single_footer{
+
+			}
+			.single_footer	h2{
+
+			}
+			.single_footer	p{
+
+			}
+			.single_footer	div.social_area{
+				background-image: url(..images.social.png);
+			}
+				div.social_area .facebook{}
+				div.social_area .twitter{}
+				div.social_area .email{}
+				div.social_area .feed{}
+				div.social_area .vimeo{}
+
+/***
+
+div.main_content_area{
+
+	}
+
+***/
+/****************************** /global *************************/
+/****************************** /global*************************/
+
+
+/******************************local*************************/
+/******************************local*************************/
+
+/************ single.html | ABOUT US**************/
+section#single-main{
+	margin-bottom: $margin20;
+}
+	section#single-main img.autor-img{
+		padding: $margin-micro;
+		margin-left: -15px;
+		margin-top: $margin20;
+		border: $gris solid 1px;
+	}
+	section#single-main p.quote{
+		color: $naranja;
+		margin-left: 80px;
+		margin-right: 80px;
+		padding: $margin20 0;
+	}
+
+	section#single-main .col-sm-12>p{
+		padding-right: $cuadrito;
+	}
+
+
+
+/************** contact-us.html *****************/
+/* WebKit browsers */ /*parra dar diferentes estilos al placeholder*/
+input.stylish::-webkit-input-placeholder { 
+    font-size: 16px; color: $naranja;
+    text-transform: uppercase;
+}
+textarea::-webkit-textarea-placeholder {
+    color:   $naranja;
+}
+
+
